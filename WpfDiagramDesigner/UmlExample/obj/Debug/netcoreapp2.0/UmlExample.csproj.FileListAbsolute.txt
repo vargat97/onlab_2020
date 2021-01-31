@@ -1,0 +1,12 @@
+G:\BME-VIK\7.felev\Onlab\WpfDiagramDesigner\UmlExample\bin\Debug\netcoreapp2.0\UmlExample.deps.json
+G:\BME-VIK\7.felev\Onlab\WpfDiagramDesigner\UmlExample\bin\Debug\netcoreapp2.0\UmlExample.runtimeconfig.json
+G:\BME-VIK\7.felev\Onlab\WpfDiagramDesigner\UmlExample\bin\Debug\netcoreapp2.0\UmlExample.runtimeconfig.dev.json
+G:\BME-VIK\7.felev\Onlab\WpfDiagramDesigner\UmlExample\bin\Debug\netcoreapp2.0\UmlExample.dll
+G:\BME-VIK\7.felev\Onlab\WpfDiagramDesigner\UmlExample\bin\Debug\netcoreapp2.0\UmlExample.pdb
+G:\BME-VIK\7.felev\Onlab\WpfDiagramDesigner\UmlExample\obj\Debug\netcoreapp2.0\UmlExample.csprojAssemblyReference.cache
+G:\BME-VIK\7.felev\Onlab\WpfDiagramDesigner\UmlExample\obj\Debug\netcoreapp2.0\UmlExample.csproj.CoreCompileInputs.cache
+G:\BME-VIK\7.felev\Onlab\WpfDiagramDesigner\UmlExample\obj\Debug\netcoreapp2.0\UmlExample.AssemblyInfoInputs.cache
+G:\BME-VIK\7.felev\Onlab\WpfDiagramDesigner\UmlExample\obj\Debug\netcoreapp2.0\UmlExample.AssemblyInfo.cs
+G:\BME-VIK\7.felev\Onlab\WpfDiagramDesigner\UmlExample\obj\Debug\netcoreapp2.0\UmlExample.dll
+G:\BME-VIK\7.felev\Onlab\WpfDiagramDesigner\UmlExample\obj\Debug\netcoreapp2.0\UmlExample.pdb
+G:\BME-VIK\7.felev\Onlab\WpfDiagramDesigner\UmlExample\obj\Debug\netcoreapp2.0\UmlExample.genruntimeconfig.cache

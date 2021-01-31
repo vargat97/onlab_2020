@@ -1,0 +1,9 @@
+G:\BME-VIK\7.felev\Onlab\WpfDiagramDesigner\MetaDslx.GraphViz\bin\Release\netstandard2.0\MetaDslx.GraphViz.deps.json
+G:\BME-VIK\7.felev\Onlab\WpfDiagramDesigner\MetaDslx.GraphViz\bin\Release\netstandard2.0\MetaDslx.GraphViz.dll
+G:\BME-VIK\7.felev\Onlab\WpfDiagramDesigner\MetaDslx.GraphViz\bin\Release\netstandard2.0\MetaDslx.GraphViz.pdb
+G:\BME-VIK\7.felev\Onlab\WpfDiagramDesigner\MetaDslx.GraphViz\obj\Release\netstandard2.0\MetaDslx.GraphViz.csprojAssemblyReference.cache
+G:\BME-VIK\7.felev\Onlab\WpfDiagramDesigner\MetaDslx.GraphViz\obj\Release\netstandard2.0\MetaDslx.GraphViz.AssemblyInfoInputs.cache
+G:\BME-VIK\7.felev\Onlab\WpfDiagramDesigner\MetaDslx.GraphViz\obj\Release\netstandard2.0\MetaDslx.GraphViz.AssemblyInfo.cs
+G:\BME-VIK\7.felev\Onlab\WpfDiagramDesigner\MetaDslx.GraphViz\obj\Release\netstandard2.0\MetaDslx.GraphViz.csproj.CoreCompileInputs.cache
+G:\BME-VIK\7.felev\Onlab\WpfDiagramDesigner\MetaDslx.GraphViz\obj\Release\netstandard2.0\MetaDslx.GraphViz.dll
+G:\BME-VIK\7.felev\Onlab\WpfDiagramDesigner\MetaDslx.GraphViz\obj\Release\netstandard2.0\MetaDslx.GraphViz.pdb

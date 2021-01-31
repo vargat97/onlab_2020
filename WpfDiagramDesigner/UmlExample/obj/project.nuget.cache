@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "y/oGWR3Ua8yNUH8KFt5qKQM2447LSDUhTUgwWsGVG629kSIjcyLALVd+uvPXtUzDoU2FphyyQ3vKcAgYD60Jcw==",
+  "success": true,
+  "projectFilePath": "G:\\BME-VIK\\7.felev\\Onlab\\WpfDiagramDesigner\\UmlExample\\UmlExample.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tamás\\.nuget\\packages\\antlr4.runtime\\4.6.6\\antlr4.runtime.4.6.6.nupkg.sha512",
+    "C:\\Users\\Tamás\\.nuget\\packages\\metadslx.codeanalysis\\0.10.344\\metadslx.codeanalysis.0.10.344.nupkg.sha512",
+    "C:\\Users\\Tamás\\.nuget\\packages\\metadslx.languages.uml-v2.5.1\\0.2.40\\metadslx.languages.uml-v2.5.1.0.2.40.nupkg.sha512",
+    "C:\\Users\\Tamás\\.nuget\\packages\\microsoft.netcore.app\\2.0.0\\microsoft.netcore.app.2.0.0.nupkg.sha512",
+    "C:\\Users\\Tamás\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.0.0\\microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
+    "C:\\Users\\Tamás\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.0.0\\microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
+    "C:\\Users\\Tamás\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.0.0\\microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
+    "C:\\Users\\Tamás\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
+    "C:\\Users\\Tamás\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\Tamás\\.nuget\\packages\\system.collections.immutable\\1.5.0\\system.collections.immutable.1.5.0.nupkg.sha512",
+    "C:\\Users\\Tamás\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Tamás\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
+    "C:\\Users\\Tamás\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\Tamás\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
+    "C:\\Users\\Tamás\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.3\\system.threading.tasks.extensions.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

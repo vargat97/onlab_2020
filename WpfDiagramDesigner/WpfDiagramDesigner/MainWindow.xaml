@@ -1,0 +1,89 @@
+﻿<Window x:Class="WpfDiagramDesigner.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:system="clr-namespace:System;assembly=mscorlib"
+        xmlns:local="clr-namespace:WpfDiagramDesigner"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Ribbon x:Name="Ribbon" Title="Ribbon Title" Margin="0,-22,0,0" Grid.Row="0">
+            <Ribbon.HelpPaneContent>
+                <RibbonButton x:Name="Help" />
+            </Ribbon.HelpPaneContent>
+            <Ribbon.QuickAccessToolBar>
+                <RibbonQuickAccessToolBar >
+                    <RibbonButton x:Name="QATButton1" />
+                    <RibbonButton x:Name="QATButton2" />
+                </RibbonQuickAccessToolBar>
+            </Ribbon.QuickAccessToolBar>
+            <Ribbon.ApplicationMenu>
+                <RibbonApplicationMenu >
+                    <RibbonApplicationMenuItem Header="Hello _Ribbon"
+                                                      x:Name="MenuItem1"/>
+                </RibbonApplicationMenu>
+            </Ribbon.ApplicationMenu>
+            <RibbonTab x:Name="HomeTab" 
+                              Header="Home">
+                <RibbonGroup x:Name="Group1" 
+                                    Header="Group1">
+                    <RibbonButton x:Name="Button1"
+                        Label="Open" SmallImageSource="Images/ic_folder_open_black_24dp.png" Click="Open_UML_file"/>
+                    <!--<RibbonButton x:Name="Button2"
+                                         Label="Add Node" SmallImageSource="G:\BME-VIK\7.felev\Onlab\WpfDiagramDesigner\WpfDiagramDesigner\Images\ic_folder_open_black_24dp.png"/>-->
+                    <!--<RibbonButton x:Name="Button3"
+                                         Label="Button3" SmallImageSource="G:\BME-VIK\7.felev\Onlab\WpfDiagramDesigner\WpfDiagramDesigner\Images\ic_folder_open_black_24dp.png"/>
+                    <RibbonButton x:Name="Button4"
+                                         Label="Button4" SmallImageSource="G:\BME-VIK\7.felev\Onlab\WpfDiagramDesigner\WpfDiagramDesigner\Images\ic_folder_open_black_24dp.png"/>-->
+                </RibbonGroup>
+            </RibbonTab>
+            <RibbonTab x:Name="FormatTab" 
+                              Header="Views">
+                <RibbonGroup x:Name="Group2" 
+                                    Header="Group2">
+                    <RibbonButton x:Name="Button5"
+                                         Label="Class diagram" SmallImageSource="Images/ic_folder_open_black_24dp.png" Click="LoadClass_Click"/>
+                    <RibbonButton x:Name="Button6"
+                                         Label="Use Case diagram" SmallImageSource="Images/ic_folder_open_black_24dp.png" Click="LoadUseCase_Click"/>
+                    <!--<RibbonButton x:Name="Button7"
+                                         Label="Button3" SmallImageSource="Images/ic_folder_open_black_24dp.png"/>
+                    <RibbonButton x:Name="Button8"
+                                         Label="Button4" SmallImageSource="Images/ic_folder_open_black_24dp.png"/>-->
+                </RibbonGroup>
+            </RibbonTab>
+        </Ribbon>
+        <local:DiagramView x:Name="DiagramView" Grid.Row="1" DrawNode="DiagramView_DrawNode">
+            <local:DiagramView.NodeTemplate>
+                <DataTemplate  DataType="{x:Type system:String}" >
+                    <Grid>
+                        <Rectangle Height="250" Width="200" Fill="LightBlue"/>
+                        <TextBlock Text="{Binding}" VerticalAlignment="Top" HorizontalAlignment="Left" />
+                    </Grid>
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type system:Int32}">
+                    <Grid>
+                        <Rectangle Fill="LightGreen"/>
+                        <TextBlock Text="{Binding}" VerticalAlignment="Top" HorizontalAlignment="Left" />
+                    </Grid>
+                </DataTemplate>
+            </local:DiagramView.NodeTemplate>
+            <local:DiagramView.EdgeTemplate>
+                <local:EdgeTemplate EdgeType="{x:Type system:String}">
+                    <local:EdgeTemplate.Pen>
+                        <Pen Brush="Black" Thickness="1.0"/>
+                    </local:EdgeTemplate.Pen>
+                </local:EdgeTemplate>
+                <local:EdgeTemplate EdgeType="{x:Type system:Int32}">
+                    <local:EdgeTemplate.Pen>
+                        <Pen Brush="Green" Thickness="5.0"/>
+                    </local:EdgeTemplate.Pen>
+                </local:EdgeTemplate>
+            </local:DiagramView.EdgeTemplate>
+        </local:DiagramView>
+    </Grid>
+</Window>

@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Platforms>AnyCPU;x86</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\ic_folder_open_black_18dp.png" />
+    <None Remove="Images\ic_folder_open_black_24dp.png" />
+    <None Remove="Images\ic_folder_open_black_36dp.png" />
+    <None Remove="Images\ic_folder_open_black_48dp.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\ic_folder_open_black_18dp.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\ic_folder_open_black_24dp.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\ic_folder_open_black_36dp.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\ic_folder_open_black_48dp.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MetaDslx.Languages.Uml-v2.5.1" Version="0.2.41" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MetaDslx.GraphViz\MetaDslx.GraphViz.csproj" />
+  </ItemGroup>
+
+</Project>
